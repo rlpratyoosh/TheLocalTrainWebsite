@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 .body1{
     background-color: black;
     height: 850px;
@@ -8,6 +11,7 @@
     top: 100px;
     left: 50%;
     transform: translateX(-100%);
+    filter: brightness(50%);
 }
 .right1{
     position: absolute;
@@ -123,6 +127,92 @@
 }
 .right-choolo:hover{
     filter: brightness(50%) grayscale(20%);
+}
+
+@media (max-width: 1024px) {
+    .right1 {
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    .rest-text {
+        font-size: 70px; 
+    }
+
+    .button1 {
+        text-align: center;
+        top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .body1 {
+        height: auto; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .left1 img {
+        width: 90%; 
+        top: 50px;
+        left: 0;
+        transform: none; 
+    }
+
+    .right1 {
+        margin-left: 0; 
+        text-align: center;
+    }
+
+    .the {
+        font-size: 30px;
+    }
+
+    .rest-text {
+        font-size: 50px; 
+    }
+
+    .button-godown a {
+        position: relative;
+        font-size: 20px;
+        padding: 8px;
+        border-width: 3px;
+    }
+
+    .body2 {
+        padding: 2px;
+    }
+
+    .TLT {
+        font-size: 50px; 
+    }
+
+    .subt {
+        font-size: 13px;
+    }
+
+
+    .body3 {
+        flex-direction: column; 
+        height: auto;
+    }
+
+    .left-grouping, .right-choolo {
+        height: 300px; 
+        background-size: cover;
+    }
+
+    .left-text {
+        font-size: 30px; 
+    }
+
+    .play-button {
+        width: 200px; 
+        height: 200px; 
+    }
 }
 
 

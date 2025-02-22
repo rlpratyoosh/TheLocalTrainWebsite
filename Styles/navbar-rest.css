@@ -1,5 +1,6 @@
 .navbar {
-    position: relative;
+    position: fixed;
+    top: 40px;
     width: 100%;
     height: auto;
     background-color: black;
@@ -10,8 +11,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    z-index: 1000; /* Ensures it stays above other elements */
 }
+
 
 
 .nav-button a {
