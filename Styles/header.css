@@ -1,41 +1,93 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body {
-    padding-top: 55px; 
+    padding-top: 60px; /* Adjusted for better spacing */
 }
+
+/* NAVBAR */
 .head {
     background-color: black;
     height: 55px;
-    width: 100%; 
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    z-index: 1000; 
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
+/* LOGO */
 .logo {
     font-family: monospace;
     font-size: 20px;
     color: white;
     font-weight: bold;
     text-align: center;
-    flex-grow: 1; 
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
 }
-.menu img, .close img {
+
+/* MENU & CLOSE BUTTONS */
+.menu img,
+.close img {
     width: 30px;
     height: auto;
     cursor: pointer;
 }
-.close img{
+
+/* Close button positioning */
+.close img {
     width: 25px;
-    height: auto;
     position: absolute;
-    top: 12px;
+    top: 50%;
     right: 20px;
+    transform: translateY(-50%);
+}
+
+/* --- RESPONSIVE DESIGN --- */
+@media (max-width: 768px) {
+    .head {
+        height: 50px;
+        padding: 0 10px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .menu img,
+    .close img {
+        width: 25px;
+    }
+
+    .close img {
+        right: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .head {
+        height: 45px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+    .menu img,
+    .close img {
+        width: 22px;
+    }
+
+    .close img {
+        right: 10px;
+    }
 }
