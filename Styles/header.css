@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    padding-top: 55px; 
+}
+.head {
+    background-color: black;
+    height: 55px;
+    width: 100%; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+}
+
+.logo{
+    position: absolute;
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.menu img{
+    width: 30px;
+    height: auto;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+}
+.close img{
+    width: 25px;
+    height: auto;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+}

@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+.musics{
+    position: relative;
+    text-align: center;
+    align-content: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+hr{
+    color: white;
+    margin: 50px;
+}
