@@ -27,9 +27,11 @@ This project was created as part of a university web development assignment whil
 
 📷 Screenshots
 
-![image](https://github.com/user-attachments/assets/83c791b0-1813-4819-bcfa-a2674e844e2b)
+![image](https://github.com/user-attachments/assets/9b9d8187-c00b-4b2a-84ac-65e393d80f07)
 
-![image](https://github.com/user-attachments/assets/28c6b23d-a84a-425f-8727-bf2f57de6778)
+![image](https://github.com/user-attachments/assets/c2583a65-7148-46c9-9228-5c8ba8fba7f9)
+
+![image](https://github.com/user-attachments/assets/c37f124d-d7fb-4a85-a218-067e70742444)
 
 
 <hr>
