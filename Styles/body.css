@@ -217,4 +217,75 @@ body{
     }
 }
 
+@media (max-width: 480px) {
+    .body1 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .left1 img {
+        width: 100%;
+        top: 20px;
+        left: 0;
+        transform: none;
+    }
+
+    .right1 {
+        margin-left: 0;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .the {
+        font-size: 25px;
+    }
+
+    .rest-text {
+        font-size: 40px;
+    }
+
+    .button-godown a {
+        position: relative;
+        font-size: 18px;
+        padding: 6px;
+        border-width: 2px;
+    }
+
+    .body2 {
+        padding: 5px;
+        height: 250px;
+    }
+
+    .TLT {
+        font-size: 40px;
+    }
+
+    .subt {
+        font-size: 10px;
+    }
+
+    .body3 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-grouping, .right-choolo {
+        height: 250px;
+        background-size: cover;
+    }
+
+    .left-text {
+        font-size: 25px;
+    }
+
+    .play-button {
+        width: 150px;
+        height: 150px;
+    }
+}
+
 
